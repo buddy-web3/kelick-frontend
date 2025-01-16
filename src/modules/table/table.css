@@ -1,0 +1,95 @@
+.ReactTable{
+    border-radius: 12px;
+}
+.ReactTable .rt-tbody .rt-td{
+    background: #FFFFFF;
+    color: #181B1B;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.ReactTable .rt-thead .rt-resizable-header-content{
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 1em 0px;
+}
+.ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td{
+    background: #F9FCFC;
+}
+.table-header-title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.ReactTable .rt-tbody .rt-td:first-of-type{
+    color: #02B9B0;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.employee-status span{
+    font-size: 16px;
+}
+.employee-status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    padding: 0px 12px;
+    border-radius: 12px;
+    width: max-content;
+}
+.employee-status .middot{
+    font-size: 33px;
+}
+.employee-status.active span{
+    color:#02B9B0;
+}
+.employee-status.active{
+    background: #E2FFFD;
+}
+.employee-status.gray span{
+    color:#5F6969;
+}
+.employee-status.gray{
+    background: #F1F5F9;
+}
+.employee-status.purple span{
+    color:#8318E7;
+}
+.employee-status.purple{
+    background: #F2E5FF;
+}
+
+.table-filters{
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.employees-search-select{
+    border-radius: 12px;
+    border-width: 1px;
+    padding: 10px 12px;
+    background: #F9FCFC;
+}
+.employees-search-input{
+    border-radius: 12px;
+    border-width: 1px;
+    padding: 0px 22px;
+    background: #F9FCFC;
+    height: 36px;
+}
+.search-input-parent{
+    position: relative;
+}
+.search-input-parent svg{
+    position: absolute;
+    top: 8px;
+    left: 3px;
+}

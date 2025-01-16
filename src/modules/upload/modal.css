@@ -1,0 +1,168 @@
+.modal-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E3333;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-title .close{
+    font-size: 34px;
+    cursor: pointer;
+}
+.modal-buttons{
+    justify-content: flex-end;
+    margin-bottom: 0px  ;
+}
+.file {
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    border: 2px dashed #B3BEBE;
+    border-radius: 16px;
+    background: #F9FCFC;
+}
+
+.file-input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.file-parent{
+    position: relative;
+}
+.custom-input{
+    position: absolute;
+    top: calc(115px - 72px);
+    left: 40%;
+}
+.custom-input span{
+    text-align: center;
+    display: block;
+}
+.custom-input img{
+    width: 72px;
+}
+.file-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5em;
+}
+.file-info span{
+    color: #5F6969;
+    font-size: 0.9rem;
+}
+.example-file{
+    background: #F2F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top:2em;
+    padding: 1em;
+    border-radius: 12px;
+}
+.example-file .modal-buttons{
+    margin: 0px;
+}
+.example-file .modal-buttons button{
+    white-space: nowrap;
+    font-size: 0.8em;
+}
+.example-description{
+    display: flex;
+    flex-direction: column;
+}
+.example-title{
+    font-weight: 700;
+}
+
+.fadeOut{
+    opacity:0;
+    width:0;
+    height:0;
+    transition: width 0.5s 0.5s, opacity 0.5s;
+
+}
+.fadeIn{
+    opacity:1;
+    height:230px;
+    transition: width 0.5s,  opacity 0.5s 0.5s;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 2px dashed #B3BEBE;
+    border-radius: 16px;
+    background: #F9FCFC;
+}
+.upload-status-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 0.41em;
+}
+
+
+progress[value] {
+    --color: #02B9B0; /* the progress color */
+    --background: lightgrey; /* the background color */
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 4px;
+    background: var(--background);
+}
+progress[value]::-webkit-progress-bar {
+    border-radius: 4px;
+    background: var(--background);
+}
+progress[value]::-webkit-progress-value {
+    border-radius: 4px;
+    background: var(--color);
+}
+progress[value]::-moz-progress-bar {
+    border-radius: 4px;
+    background: var(--color);
+}
+
+.banner-modal.confirm{
+    width: 17vw;
+}
+.modal-buttons.confirm{
+    justify-content: center;
+    margin-top:0px;
+}
+.modal-content.confirm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.xl.modal-confirm{
+    padding:0px 10px;
+    margin:0px;
+}
+.lg.modal-confirm{
+    padding: 0px 10px;
+    margin:0px;
+}

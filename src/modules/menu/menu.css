@@ -1,0 +1,73 @@
+.side-menu-item{
+    margin:1.5em 0px;
+}
+.side-menu{
+    color:#7A8484;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    gap: 8px;
+    margin:0.5em 0px;
+    align-items: center;
+}
+.side-menu a{
+    color:#7A8484;
+    text-transform: uppercase;
+}
+.side-menu .icon{
+    display: flex;
+}
+.side-menu-sub{
+    margin:30px 0px;
+    transition: all 1s;
+
+}
+.side-menu-sub.extra{
+    transition: all 1s;
+}
+.side-menu-sub.hidden{
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+    margin: 0;
+    transition: all 1s;
+}
+.side-menu-sub a,
+.side-menu-sub span{
+    margin:10px 8px;
+    color:#2E3333;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 1.3em;
+
+    display: flex;
+    gap: 11px;
+}
+.side-menu-sub.hidden a{
+    line-height: 0px;
+    display: none;
+}
+.side-menu-sub.hidden a svg{
+    display: none;
+}
+.side-menu-sub.active{
+    border:1px solid #B3BEBE;
+    border-radius: 12px;
+    padding: 0em 0.2em;
+    background: #F2F5F5;
+}
+.side-menu-sub a.active{
+    color:#1A1A1A;
+}
+.side-menu-sub a.selected{
+    font-weight: 600;
+    color:#1A1A1A;
+
+}
+ul{
+    padding-left: 0px;
+}
+.side-menu .icon{
+    cursor: pointer;
+}

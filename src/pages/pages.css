@@ -1,0 +1,6 @@
+.page{
+    padding: 0.5em 2em;
+    background: #F9FCFC;
+    height: calc(100vh - 11vh);
+    /*height: 100vh;*/
+}

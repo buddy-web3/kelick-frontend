@@ -1,0 +1,9 @@
+name,email,description,role,nationality,employment status,status
+Test 1,test@kelick.com,profile data,Senior,Singapore,Full time,Active
+Test 2,test1@kelick.com,profile data,Junior,Malaysia,Contract,Payroll Only
+Test 3,test2@kelick.com,profile data,Senior,Singapore,Full time,Invite Sent
+Test 4,test4@kelick.com,profile data,Senior,Permanent Resident,Part time,Invite Sent
+Test 5,test5@kelick.com,profile data,Senior,Permanent Resident,Intern,Active
+Test 6,test6@kelick.com,profile data,Senior,South Korea,Intern,Active
+Test 7,test7@kelick.com,profile data,Senior,South Korea,Intern,Active
+Test 8,test8@kelick.com,profile data,Senior,Hong Kong,Intern,Active

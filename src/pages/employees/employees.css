@@ -1,0 +1,58 @@
+.banner{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.banner p{
+    margin:0;
+}
+.banner-actions{
+    margin: 3em;
+    gap: 20px;
+    display: flex;
+}
+.banner-actions .button{
+    background: #F9FCFC;
+    border-radius: 12px;
+    padding: 16px;
+    border:1px solid #B3BEBE;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2E3333;
+}
+.banner-actions .button.main{
+    background: #02B9B0;
+    color: #F9FCFC;
+}
+.banner-modal{
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #FFFFFF;
+    padding: 2em;
+    border-radius: 16px;
+    border: 1px solid #B3BEBE;
+    width: 35vw;
+}
+.banner-modal-overlay{
+
+    position: absolute;
+    inset: 0px;
+    background-color: rgba(19, 18, 18, 0.48);
+}
+.banner-image{
+    width: 220px;
+}

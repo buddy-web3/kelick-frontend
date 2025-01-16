@@ -1,0 +1,97 @@
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+}
+.card-parent{
+    background: #FFFFFF;
+    border: 1px solid #F2F5F5;
+    border-radius: 16px;
+    padding: 16px;
+}
+.divided-header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.card-title{
+    font-size: 12px;
+    font-weight: 500;
+    color: #5F6969;
+}
+.card-title.total{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2E3333;
+}
+.card-title.total-nationality{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2E3333;
+}
+.nationality-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 7px;
+    max-width: 250px;
+}
+.nationality-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
+}
+.nationality-count{
+    color: #2E3333;
+    font-weight: 600;
+}
+.nationality-item:before{
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 12px;
+    margin-right: 8px;
+    background: #02B9B0;
+}
+.nationality-item:nth-of-type(2):before{
+    background: #FAC905;
+}
+.nationality-item:nth-of-type(3):before{
+    background: #B774FC;
+}
+.nationality-item:nth-of-type(4):before{
+    background: #B3BEBE;
+}
+
+.card-parent.employment-type{
+    flex:1;
+}
+
+.employment-type .nationality-list{
+    max-width: fit-content;
+    gap: 16px;
+}
+.progress-bar-linear{
+    height: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+.progress-bar-item{
+    border-radius: 4px;
+}

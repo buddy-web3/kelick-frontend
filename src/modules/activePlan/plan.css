@@ -1,0 +1,16 @@
+.plan-side-card{
+    border-top:1px solid #F2F5F5;
+}
+.plan-title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+}
+.plan-side-card p progress{
+    /*max-width: 100px;*/
+    margin: 0;
+    height: 4px;
+    margin-bottom: 1em;
+}

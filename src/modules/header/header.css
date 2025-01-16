@@ -1,0 +1,16 @@
+.header{
+    height: 7vh;
+    /*width: 100%;*/
+    border-bottom: 1px solid #1A1A1A1F;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+.page-title{
+    padding: 1em;
+    color: #2E3333;
+}
+.header button{
+    padding: 7px 10px !important;
+}
